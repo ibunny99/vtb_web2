@@ -1,0 +1,6 @@
+{
+  "/api/content/route": "app/api/content/route.js",
+  "/(main)/page": "app/(main)/page.js",
+  "/(main)/applications/page": "app/(main)/applications/page.js",
+  "/(main)/rules/page": "app/(main)/rules/page.js"
+}

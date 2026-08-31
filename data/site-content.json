@@ -1,0 +1,126 @@
+{
+  "servers": [
+    {
+      "name": "VTB RP - S1",
+      "current": 542,
+      "max": 666,
+      "active": true
+    },
+    {
+      "name": "VTB RP - VIP",
+      "current": 180,
+      "max": 300,
+      "active": true
+    }
+  ],
+  "home": {
+    "heroTitle1": "Next-Level Roleplay",
+    "heroTitle2": "Classic • Respect",
+    "heroDescription": "VTB RP starts with you. A world built from the ground up with custom-designed roleplay hubs, authentic civilian life, and interconnected systems creating real, unscripted moments that produce the best stories and greatest content. / VTB RP ចាប់ផ្តើមពីអ្នក។ ពិភពលោកដែលបង្កើតឡើងវិញពីដំបូងសម្រាប់ការលេងតួដ៏អស្ចារ្យ និងពិតប្រាកដបំផុត។",
+    "aboutTitle": "Diversity • Experience / ភាពសម្បូរបែប • បទពិសោធន៍"
+  },
+  "applications": {
+    "isOpen": false,
+    "targetDate": "2026-08-11T18:00:00.000Z",
+    "statusMessage": "Whitelist application and citizenship registration system for VTB Roleplay is currently finalizing its launch. / ប្រព័ន្ធពិនិត្យពាក្យសុំ Whitelist និងការចុះឈ្មោះចូលរួម VTB Roleplay កំពុងបញ្ចប់ជំហានចុងក្រោយ។"
+  },
+  "faqs": [
+    {
+      "id": 1,
+      "question": "How to join VTB Roleplay server? / តើត្រូវចូលរួមម៉ាស៊ីនមេ VTB Roleplay យ៉ាងដូចម្តេច?",
+      "answer": "You need to join the official Discord server of VTB Roleplay, carefully read the server rules, and submit a Whitelist application when the portal opens. / អ្នកត្រូវចូលរួម Discord ផ្លូវការរបស់ VTB Roleplay អានច្បាប់ឱ្យបានច្បាស់លាស់ និងដាក់ពាក្យ Whitelist នៅពេលបើកដំណើរការ។"
+    },
+    {
+      "id": 2,
+      "question": "Is POV recording required during gunfights? / តើតម្រូវឱ្យថត POV ពេលបាញ់គ្នារឺទេ?",
+      "answer": "Yes. All players participating in PvP or gunfights must enable screen recording software (POV) and store footage for at least 14 days. / បាទ/ចាស។ អ្នកលេងទាំងអស់ត្រូវតែបើក POV ថតអេក្រង់ពេល PvP និងរក្សាទុកយ៉ាងហោចណាស់ 14 ថ្ងៃ។"
+    },
+    {
+      "id": 3,
+      "question": "What should I do if I encounter game bugs or rule violations? / តើត្រូវធ្វើដូចម្តេចប្រសិនបើជួបបញ្ហា bug ឬការបំពានច្បាប់?",
+      "answer": "Always stay in character (IC) until the scenario concludes. Afterwards, open a Ticket on Discord with evidence for Staff assistance. / សូមបន្តរក្សាតួអង្គ (IC) រហូតដល់ចប់ហេតុការណ៍ បន្ទាប់មកបើក Ticket ក្នុង Discord ដើម្បីផ្ញើភស្តុតាងឱ្យ Staff ជួយដោះស្រាយ។"
+    }
+  ],
+  "rules": [],
+  "features": [
+    {
+      "title": "New Locations, New World / ទីតាំងថ្មី ពិភពលោកថ្មី",
+      "description": "Discover brand new custom areas and landmarks for you to explore across the city.",
+      "photoSrc": "https://i.ibb.co/DfrnXqsg/Clean-Shot-2026-08-04-at-19-00-53-2x.png",
+      "bgColor": "rgb(31, 38, 51)",
+      "origin": "origin-left",
+      "hoverTransform": "rotateY(3deg) rotateX(1deg)"
+    },
+    {
+      "title": "Government Tools, Redesigned / ឧបករណ៍រដ្ឋាភិបាល រចនាថ្មី",
+      "description": "Rebuilt from the ground up for PD, EMS, and DOJ — streamlined workflow, linked cases, and advanced court calendars.",
+      "photoSrc": "https://i.ibb.co/TD1nvDDT/Clean-Shot-2026-08-04-at-18-59-56-2x.png",
+      "bgColor": "rgb(51, 31, 38)",
+      "origin": "origin-top",
+      "hoverTransform": "rotateX(2deg)"
+    },
+    {
+      "title": "Dynamic Interactions / អន្តរកម្មឥតឈប់ឈរ",
+      "description": "Endless activities, deep roleplay interactions, and immersive opportunities whenever you are in the city.",
+      "photoSrc": "https://i.ibb.co/TD1nvDDT/Clean-Shot-2026-08-04-at-18-59-56-2x.png",
+      "bgColor": "rgb(31, 46, 51)",
+      "origin": "origin-top",
+      "hoverTransform": "rotateX(2deg)"
+    },
+    {
+      "title": "Unique Careers & Economy / អាជីពប្លែកៗ និងសេដ្ឋកិច្ច",
+      "description": "Diverse civilian jobs, underground operations, and a vibrant player-driven market economy.",
+      "photoSrc": "https://i.ibb.co/TD1nvDDT/Clean-Shot-2026-08-04-at-18-59-56-2x.png",
+      "bgColor": "transparent",
+      "origin": "origin-right",
+      "hoverTransform": "rotateY(-3deg) rotateX(1deg)"
+    }
+  ],
+  "refcodes": [
+    {
+      "id": "ref-1",
+      "code": "Ibunny",
+      "slug": "ibunny",
+      "owner": "Ibunny",
+      "title": "REFCODE",
+      "reward": "Starter Pack + $50,000 in-game cash & VIP Starter Vehicle / កញ្ចប់ចាប់ផ្តើម + $50,000 និងរថយន្ត VIP",
+      "boxColor": "#00DCFF",
+      "textColor": "#000000",
+      "titleColor": "#FFFFFF",
+      "codeFont": "1FTV VIP Sakana",
+      "titleFont": "1FTV VIP Sakana",
+      "createdAt": "2026-08-29T11:12:36.116Z",
+      "targetUrl": "https://discord.gg/vtbrp"
+    },
+    {
+      "id": "ref-2",
+      "code": "TUWCOR",
+      "slug": "tuwcor",
+      "owner": "Tuwcor",
+      "title": "SPECIAL CODE",
+      "reward": "VIP Founder Pack + Exclusive In-Game Title / កញ្ចប់ VIP Founder + ងារពិសេស",
+      "boxColor": "#00DCFF",
+      "textColor": "#000000",
+      "titleColor": "#FFFFFF",
+      "codeFont": "1FTV VIP Sakana",
+      "titleFont": "1FTV VIP Sakana",
+      "createdAt": "2026-08-29T10:00:00.000Z",
+      "targetUrl": "https://discord.gg/vtbrp"
+    },
+    {
+      "id": "ref-3",
+      "code": "VTB2026",
+      "slug": "vtb2026",
+      "title": "STARTER CODE",
+      "owner": "VTB Roleplay Server",
+      "reward": "$100,000 cash + Premium Citizen Card / $100,000 ប្រាក់សុទ្ធ + ប័ណ្ណពលរដ្ឋ Premium",
+      "targetUrl": "https://discord.gg/vtbrp",
+      "boxColor": "#00DCFF",
+      "textColor": "#000000",
+      "titleColor": "#FFFFFF",
+      "codeFont": "1FTV VIP Sakana",
+      "titleFont": "1FTV VIP Sakana",
+      "createdAt": "2026-08-29T11:13:12.097Z"
+    }
+  ]
+}
