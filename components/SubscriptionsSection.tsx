@@ -184,9 +184,9 @@ function TierCard({ tier }: {tier: Tier;}) {
               </li>
             )}
           </ul>
-          <button
-            type="button"
-            className="relative block w-full cursor-pointer">
+          <a
+            href="/shop"
+            className="relative block w-full cursor-pointer no-underline">
             
             <div
               className="relative block w-full"
@@ -205,10 +205,10 @@ function TierCard({ tier }: {tier: Tier;}) {
                 }} />
               
               <span className="relative z-[1] flex w-full items-center justify-center px-6 py-3.5 font-heading text-[13px] font-bold uppercase text-white">
-                Subscribe
+                Subscribe / ទិញឥឡូវនេះ
               </span>
             </div>
-          </button>
+          </a>
         </div>
       </div>
     </div>);

@@ -4,9 +4,12 @@ import Image from "next/image";
 import logoMain from "@/assets/v1b-logo.png";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { useCart } from "@/context/CartContext";
+import { ShoppingBag } from "lucide-react";
 
 const navLinks = [
   { label: "Home", href: "/" },
+  { label: "Shop", href: "/shop" },
   { label: "Rules", href: "/rules" },
   { label: "Applications", href: "/applications" },
   { label: "Discord", href: "https://discord.gg/bxkdvMprMN" },
@@ -16,6 +19,7 @@ export default function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const pathname = usePathname();
+  const { itemCount, setIsCartOpen } = useCart();
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 10);
@@ -112,6 +116,21 @@ export default function Navbar() {
                 </svg>
                 <span>Store</span>
               </a>
+
+              {/* Cart Drawer Trigger Button */}
+              <button
+                type="button"
+                onClick={() => setIsCartOpen(true)}
+                aria-label="Shopping Cart"
+                className="relative inline-flex items-center justify-center p-2 rounded-xl bg-white/5 hover:bg-white/15 text-white/80 hover:text-[#00DCFF] border border-white/10 transition-all active:scale-95"
+              >
+                <ShoppingBag className="w-5 h-5" />
+                {itemCount > 0 && (
+                  <span className="absolute -top-1.5 -right-1.5 min-w-[20px] h-5 px-1 rounded-full bg-[#00DCFF] text-black font-mono font-black text-[10px] flex items-center justify-center shadow-[0_0_10px_rgba(0,220,255,0.7)] animate-pulse">
+                    {itemCount}
+                  </span>
+                )}
+              </button>
 
               {/* Login */}
               <Link

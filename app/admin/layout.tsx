@@ -46,6 +46,8 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
 
   const navItems = [
     { label: 'Overview Dashboard', href: '/admin', icon: '📊' },
+    { label: 'Shop Products CMS', href: '/admin/shop', icon: '🛍️' },
+    { label: 'Orders List (Đơn Hàng)', href: '/admin/orders', icon: '📦' },
     { label: 'Home Page CMS', href: '/admin/home', icon: '🏠' },
     { label: 'Rules CMS', href: '/admin/rules', icon: '📜' },
     { label: 'Applications CMS', href: '/admin/applications', icon: '⏳' },

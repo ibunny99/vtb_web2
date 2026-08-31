@@ -74,6 +74,10 @@ export const metadata: Metadata = {
   },
 };
 
+import { CartProvider } from '@/context/CartContext';
+import CartDrawer from '@/components/shop/CartDrawer';
+import CheckoutModal from '@/components/shop/CheckoutModal';
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -92,7 +96,11 @@ export default function RootLayout({
         <script type="module" async src="https://static.rocket.new/rocket-web.js?_cfg=https%3A%2F%2Fprodigyrp5222back.builtwithrocket.new&_be=https%3A%2F%2Fappanalytics.rocket.new&_v=0.1.20" />
         <script type="module" defer src="https://static.rocket.new/rocket-shot.js?v=0.0.2" /></head>
       <body>
-        {children}
+        <CartProvider>
+          {children}
+          <CartDrawer />
+          <CheckoutModal />
+        </CartProvider>
       </body>
     </html>
   );
