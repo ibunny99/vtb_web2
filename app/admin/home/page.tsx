@@ -78,7 +78,7 @@ export default function AdminFullHomeEditorPage() {
           setServers(
             d.data.servers || [
               { name: 'VTB RP - S1', current: 542, max: 666, active: true },
-              { name: 'VTB RP - VIP', current: 180, max: 300, active: true },
+              // { name: 'VTB RP - VIP', current: 180, max: 300, active: true },
             ]
           );
 

@@ -11,8 +11,8 @@ interface ServerStatus {
 }
 
 const defaultServers: ServerStatus[] = [
-  { name: "VTB RP Server 1", current: 242, max: 666, active: true },
-  { name: "VTB RP Server 2", current: 0, max: 300, active: true },
+  { name: "VTB RP", current: 242, max: 666, active: true },
+  // { name: "VTB RP Server 2", current: 0, max: 300, active: true },
 ];
 
 function ClipButton({
@@ -202,7 +202,7 @@ export default function HeroSection() {
           style={{ animationDelay: "0.7s", animationFillMode: "both" }}
         >
           <ClipButton
-            href="https://discord.gg/bxkdvMprMN"
+            href="https://discord.gg/rVDdrg68UA"
             variant="primary"
             external
           >

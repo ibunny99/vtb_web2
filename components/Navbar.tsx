@@ -11,8 +11,8 @@ const navLinks = [
   { label: "Home", href: "/" },
   { label: "Shop", href: "/shop" },
   { label: "Rules", href: "/rules" },
-  { label: "Applications", href: "/applications" },
-  { label: "Discord", href: "https://discord.gg/bxkdvMprMN" },
+  // { label: "Applications", href: "/applications" },
+  { label: "Discord", href: "https://discord.gg/rVDdrg68UA" },
 ];
 
 export default function Navbar() {

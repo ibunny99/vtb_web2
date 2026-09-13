@@ -153,7 +153,7 @@ export default function ApplicationsPage() {
           {/* Action Buttons */}
           <div className="flex flex-wrap justify-center gap-4">
             <a
-              href="https://discord.gg/bxkdvMprMN"
+              href="https://discord.gg/rVDdrg68UA"
               target="_blank"
               rel="noreferrer"
               className="inline-flex items-center gap-2.5 px-6 py-3.5 bg-[#00DCFF] hover:bg-[#52F0FF] text-black font-heading font-extrabold text-xs uppercase rounded-xl transition-all active:scale-95 shadow-[0_0_20px_rgba(0,220,255,0.3)]"

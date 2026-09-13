@@ -13,14 +13,14 @@ interface ServerStatus {
 }
 
 const defaultServers: ServerStatus[] = [
-  { name: "VTB RP Server 1", current: 242, max: 666, active: true },
-  { name: "VTB RP Server 2", current: 0, max: 300, active: true },
+  { name: "VTB RP", current: 242, max: 666, active: true },
+  // { name: "VTB RP Server 2", current: 0, max: 300, active: true },
 ];
 
 const navigateLinks = [
   { label: "About Us", href: "/#about" },
   { label: "Subscriptions", href: "/#subscriptions" },
-  { label: "Applications", href: "/applications" },
+  // { label: "Applications", href: "/applications" },
   { label: "FAQ", href: "/#faq" },
 ];
 
@@ -129,7 +129,7 @@ export default function Footer() {
               <div className="flex gap-2.5">
                 {/* Discord */}
                 <a
-                  href="https://discord.gg/bxkdvMprMN"
+                  href="https://discord.gg/rVDdrg68UA"
                   target="_blank"
                   rel="noreferrer"
                   aria-label="Discord"
@@ -281,7 +281,7 @@ export default function Footer() {
           >
             <p>&copy; 2026 VTB ROLEPLAY. All Rights Reserved.</p>
             <a
-              href="https://discord.gg/bxkdvMprMN"
+              href="https://discord.gg/rVDdrg68UA"
               target="_blank"
               rel="noreferrer"
               className="flex items-center gap-2 text-xs no-underline transition-opacity hover:opacity-70"
